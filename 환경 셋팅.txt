@@ -1,6 +1,9 @@
 - 아나콘다 설치, 파이썬 32 비트 설치
+- C:\Users\great\AppData\Local\Programs\Python\Python310-32\pythn.exe -m pip install [패키지명]
 - 설치 경로 확인 후 VSCODE에서 Ctrl + Shift +  P 클릭 후 인터프리터 경로 지정
 - set CONDA_FORCE_32BIT = 1
 - conda create -n py310_32 python=3.10 pip=21.2.4
-- conda activate py310_32
+- conda activate py379_32
 - 키움증권 OpenAPI+ 설치 : https://www.kiwoom.com/h/customer/download/VOpenApiInfoView
+- PyQt5 설치 : (py310_32) D:\greatbps\AutoTrading_25>C:/Users/great/AppData/Local/Programs/Python/Python310-32/python.exe -m 
+  pip install PyQt5, conda install -c conda-forge pyqt
